@@ -1,0 +1,38 @@
+{
+    "name": "shimoning/formula",
+    "version": "0.1.0",
+    "description": "計算式を扱うPHPライブラリ",
+    "minimum-stability": "stable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shimon Haga",
+            "email": "shimon.haga@shimoning.com"
+        }
+    ],
+    "keywords": [
+        "formula",
+        "calculation",
+        "calc",
+        "addition",
+        "subtraction",
+        "multiplication",
+        "division"
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "psy/psysh": "@stable",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shimoning\\Formula\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
