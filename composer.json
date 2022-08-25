@@ -1,6 +1,6 @@
 {
     "name": "shimoning/formula",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "計算式を扱うPHPライブラリ",
     "minimum-stability": "stable",
     "type": "library",
@@ -21,7 +21,7 @@
         "division"
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^7.0|^8.0"
     },
     "require-dev": {
         "psy/psysh": "@stable",
